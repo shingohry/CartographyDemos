@@ -14,6 +14,7 @@
 		C9D9AEAD1E6834AE008C5067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D9AEAC1E6834AE008C5067 /* Assets.xcassets */; };
 		C9D9AEB01E6834AE008C5067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D9AEAE1E6834AE008C5067 /* LaunchScreen.storyboard */; };
 		C9D9AEB81E683761008C5067 /* CenterVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9AEB71E683761008C5067 /* CenterVIewController.swift */; };
+		C9D9AEBA1E683C39008C5067 /* InsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9AEB91E683C39008C5067 /* InsetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C9D9AEAF1E6834AE008C5067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9D9AEB11E6834AE008C5067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D9AEB71E683761008C5067 /* CenterVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterVIewController.swift; sourceTree = "<group>"; };
+		C9D9AEB91E683C39008C5067 /* InsetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				C9D9AEAE1E6834AE008C5067 /* LaunchScreen.storyboard */,
 				C9D9AEB11E6834AE008C5067 /* Info.plist */,
 				C9D9AEB71E683761008C5067 /* CenterVIewController.swift */,
+				C9D9AEB91E683C39008C5067 /* InsetViewController.swift */,
 			);
 			path = CartographyDemos;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				C9D9AEB81E683761008C5067 /* CenterVIewController.swift in Sources */,
 				C9D9AEA81E6834AE008C5067 /* ViewController.swift in Sources */,
+				C9D9AEBA1E683C39008C5067 /* InsetViewController.swift in Sources */,
 				C9D9AEA61E6834AE008C5067 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

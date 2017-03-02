@@ -47,7 +47,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xbY-gT-5V5">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Inset" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xbY-gT-5V5">
                                                     <rect key="frame" x="15" y="0.0" width="345" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -56,6 +56,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Vsd-cZ-zTJ" kind="show" id="EMD-0r-6ec"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="g9O-oI-wWN" style="IBUITableViewCellStyleDefault" id="2em-ec-Ee1">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
@@ -105,6 +108,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2x8-po-iLN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1615" y="136"/>
+        </scene>
+        <!--Inset View Controller-->
+        <scene sceneID="lAN-5B-YLW">
+            <objects>
+                <viewController id="Vsd-cZ-zTJ" customClass="InsetViewController" customModule="CartographyDemos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UXL-4n-2o2"/>
+                        <viewControllerLayoutGuide type="bottom" id="SgX-7U-u04"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V8S-Ws-28d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sUu-NJ-xWC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1614" y="855"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tC5-hb-Dze">
