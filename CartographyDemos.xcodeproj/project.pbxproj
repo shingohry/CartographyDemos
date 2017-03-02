@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B80B5A8D7F1F1ED668E04562 /* Pods_CartographyDemos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E45B0B46A3622E4475EDF /* Pods_CartographyDemos.framework */; };
+		C9CB48531E68DA10008D45CB /* ReplacingConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CB48521E68DA10008D45CB /* ReplacingConstraintsViewController.swift */; };
 		C9D9AEA61E6834AE008C5067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9AEA51E6834AE008C5067 /* AppDelegate.swift */; };
 		C9D9AEA81E6834AE008C5067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9AEA71E6834AE008C5067 /* ViewController.swift */; };
 		C9D9AEAB1E6834AE008C5067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D9AEA91E6834AE008C5067 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		1B26184F95EE897AF285E298 /* Pods-CartographyDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartographyDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CartographyDemos/Pods-CartographyDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		495E45B0B46A3622E4475EDF /* Pods_CartographyDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CartographyDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12228D47C236888D71252E5 /* Pods-CartographyDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartographyDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-CartographyDemos/Pods-CartographyDemos.release.xcconfig"; sourceTree = "<group>"; };
+		C9CB48521E68DA10008D45CB /* ReplacingConstraintsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplacingConstraintsViewController.swift; sourceTree = "<group>"; };
 		C9D9AEA21E6834AE008C5067 /* CartographyDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartographyDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D9AEA51E6834AE008C5067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D9AEA71E6834AE008C5067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				C9D9AEB71E683761008C5067 /* CenterVIewController.swift */,
 				C9D9AEB91E683C39008C5067 /* InsetViewController.swift */,
 				C9DB65151E68CA3A00BB6637 /* AligningAndDistributingViewController.swift */,
+				C9CB48521E68DA10008D45CB /* ReplacingConstraintsViewController.swift */,
 			);
 			path = CartographyDemos;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				C9D9AEBA1E683C39008C5067 /* InsetViewController.swift in Sources */,
 				C9DB65161E68CA3A00BB6637 /* AligningAndDistributingViewController.swift in Sources */,
 				C9D9AEA61E6834AE008C5067 /* AppDelegate.swift in Sources */,
+				C9CB48531E68DA10008D45CB /* ReplacingConstraintsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
